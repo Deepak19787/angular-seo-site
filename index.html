@@ -1,0 +1,26 @@
+<nav class="navbar">
+  <div class="container">
+    <a class="logo" routerLink="/">AngularSeoSite</a>
+    <ul class="nav-links">
+      <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+      <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+      <li><a routerLink="/blog" routerLinkActive="active">Blog</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2024 AngularSeoSite. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://github.com/angular/angular" target="_blank" rel="noopener" aria-label="Github">GitHub</a>
+      <a href="https://twitter.com/angular" target="_blank" rel="noopener" aria-label="Twitter">Twitter</a>
+      <a href="https://www.youtube.com/channel/UCbn1OgGei-DV7aSRo_HaAiw" target="_blank" rel="noopener" aria-label="YouTube">YouTube</a>
+    </div>
+  </div>
+</footer>
