@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: 'https://Deepak19787.github.io/angular-seo-site',
   supportedLocales: {
   "en-US": ""
 },

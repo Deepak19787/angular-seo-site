@@ -1,12 +1,12 @@
 {
   "routes": {
-    "/": {},
-    "/about": {},
-    "/blog": {},
-    "/blog/post1": {},
-    "/blog/post2": {},
-    "/blog/post3": {},
-    "/contact": {},
-    "/home": {}
+    "/angular-seo-site": {},
+    "/angular-seo-site/about": {},
+    "/angular-seo-site/blog": {},
+    "/angular-seo-site/blog/post1": {},
+    "/angular-seo-site/blog/post2": {},
+    "/angular-seo-site/blog/post3": {},
+    "/angular-seo-site/contact": {},
+    "/angular-seo-site/home": {}
   }
 }

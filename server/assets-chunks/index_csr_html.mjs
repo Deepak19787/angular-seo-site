@@ -3,7 +3,7 @@ export default `<!doctype html>
 <head>
   <meta charset="utf-8">
   <title>AngularSeoSite</title>
-  <base href="/">
+  <base href="https://Deepak19787.github.io/angular-seo-site/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <style>:root{--primary-color:#3498db;--secondary-color:#2c3e50;--accent-color:#e74c3c;--light-color:#ecf0f1;--dark-color:#2c3e50;--success-color:#27ae60;--warning-color:#f39c12;--error-color:#e74c3c;--font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif}*{box-sizing:border-box;margin:0;padding:0}body{font-family:var(--font-family);line-height:1.6;color:#333;background-color:#f8f9fa}</style><link rel="stylesheet" href="styles-EFGASKCL.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-EFGASKCL.css"></noscript></head>
