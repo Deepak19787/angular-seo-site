@@ -38,13 +38,21 @@ app.use(
 /**
  * Handle all other requests by rendering the Angular application.
  */
-app.use((req, res, next) => {
+app.use('/*', (req, res, next) => {
   angularApp
     .handle(req)
     .then((response) =>
       response ? writeResponseToNodeResponse(response, res) : next(),
     )
     .catch(next);
+});
+
+/**
+ * Error handling middleware
+ */
+app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
+  console.error('Server error:', err);
+  res.status(500).send('Internal Server Error');
 });
 
 /**
@@ -59,6 +67,7 @@ if (isMainModule(import.meta.url)) {
     }
 
     console.log(`Node Express server listening on http://localhost:${port}`);
+    console.log(`Angular SSR server is running in ${process.env['NODE_ENV'] || 'development'} mode`);
   });
 }
 
